@@ -1,0 +1,154 @@
+& {
+  .xs-first {
+    -ms-flex-order: -1;
+    order: -1;
+  }
+  section,
+  header,
+  footer {
+    overflow: hidden;
+  }
+  nav.fixed {
+    background: #fff;
+  }
+  .nav-button {
+    padding: 5px 8px;
+    text-align: center;
+  }
+
+  .nav-logo {
+
+    font-size: 20px;
+    display: block;
+  }
+  .head-item {
+    h1 {
+      font-size: 34px;
+      line-height: 1.2;
+    }
+    h3 {
+      line-height: 1.2;
+    }
+  }
+  .head {
+    text-align: center;
+    br {
+      display: none;
+    }
+  }
+  .social-fixed {
+    display: none;
+  }
+  .head-img {
+    display: none;
+  }
+  .order-btn {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  .form-item .top {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .section_1 .title {
+    margin-top: 0;
+  }
+  .title,
+  .section_3 .title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .section_1-item,
+  .section_2-item {
+    padding-left: 0;
+  }
+  .section_1 {
+    br {
+      display: none;
+    }
+  }
+  .section_1-item h4 {
+    font-size: 16px;
+  }
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .section_1-item,
+  .section_2-item {
+    text-align: center;
+    p {
+      text-align: center;
+    }
+    h4 {
+      text-align: center;
+    }
+    ul {
+      h4 {
+        text-align: left;
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+  .section_2 {
+    padding-bottom: 60px;
+  }
+  .section_3 .container {
+    padding: 60px 15px;
+  }
+  .section_3 {
+    text-align: center;
+    br {
+      display: none;
+    }
+  }
+  .section_4-item {
+    padding-left: 0;
+  }
+  .section_4-item h4 {
+    font-size: 17px;
+  }
+  .countdownHolder {
+    margin-bottom: 30px;
+  }
+  .footer,
+  .footer_bottom {
+    text-align: center;
+  }
+  .social,
+  .rezart-logo {
+    float: none;
+  }
+  .footer-list li {
+    display: block;
+    margin: 10px 0;
+  }
+  .footer .social li svg {
+    width: 40px;
+    height: inherit;
+  }
+  .footer .social li:last-child svg {
+    width: 50px;
+  }
+  .section_2-item p, .head-item p {
+    max-width: 100%;
+  }
+  .section_4-item p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section_4-item h4 {
+    text-align: center;
+  }
+  .section_4-item {
+    text-align: center;
+  }
+  &.success .footer p {
+    text-align: center;
+  }
+}

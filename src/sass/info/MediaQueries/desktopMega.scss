@@ -1,0 +1,10 @@
+@import '../../mq';
+
+@media #{$desktopMega} {
+    @import '../desktop';
+    & {
+    	.head-img {
+        left: 5.208333333333334vw
+      }
+    }
+}
