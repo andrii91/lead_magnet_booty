@@ -35,7 +35,6 @@ nav {
       padding: 0 6px;
     }
     .nav-button {
-      background-color: #ffc400;
       transition: 0.5s;
       color: #333;
       &:hover {
@@ -61,43 +60,16 @@ nav {
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: 3px;
-  border-radius: 22px;
-  border: 2px solid #ffc400;
-
-  padding: 13px 32px;
-  transition: 0.2s;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  &:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #ffc400;
-    border-radius: 100%;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
+  display: inline-block;
+  
   &:hover {
-    color: #fff;
+    color: #000;
   }
   &:hover:before,
   &:focus:before,
@@ -202,7 +174,7 @@ nav {
   min-height: 100vh;
   background: url('../images/bg1.png') no-repeat center bottom;
   background-size: cover;  
-  padding: 80px 0 40px;
+  padding: 125px 0 40px;
       display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
@@ -370,7 +342,7 @@ nav {
 .head-img {
   position: absolute;
   bottom: 0;
-  left: -3vw;
+  left: 0vw;
   width: 34.21875vw;
 }
 
@@ -467,7 +439,7 @@ main {
 }
 
 .section_2 {
-  padding: 60px 0 120px;
+  padding: 60px 0 0;
   .title {
     margin-top: 50px;
   }
@@ -490,6 +462,7 @@ main {
 
 .section_2-item {
   padding-left: 98px;
+  margin-bottom: 60px;
   p {
     color: #333333;
     font-family: "PT Sans";
@@ -552,7 +525,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   .container {
-    padding: 100px 15px;
+    padding: 100px 15px 0;
   }
   .title {
     color: #ffffff;
@@ -595,6 +568,7 @@ main {
   max-width: 460px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
   p {
     color: #ffffff;
     font-family: "PT Sans";
@@ -812,4 +786,8 @@ background-color: #121212;
       }
     }
   }
+}
+
+.pl80 {
+  padding-left: 80px;
 }

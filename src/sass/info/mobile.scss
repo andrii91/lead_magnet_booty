@@ -96,7 +96,7 @@
     }
   }
   .section_2 {
-    padding-bottom: 60px;
+    padding-bottom: 0px;
   }
   .section_3 .container {
     padding: 60px 15px;
@@ -150,5 +150,16 @@
   }
   &.success .footer p {
     text-align: center;
+  }
+  .pl80 {
+    padding-left: 15px;
+  }
+  .section_3-item {
+    margin-bottom: 20px;
+  }
+  .section_3 {
+    .container {
+      padding-bottom: 0;
+    }
   }
 }

@@ -328,7 +328,16 @@ $(document).ready(function () {
 
 
   }
+  $('.nav-button').click(function (e) {
+    event.preventDefault();
+    var id = $(this).attr('href'),
+      top = $(id).offset().top;
 
+    $('body,html').animate({
+      scrollTop: top
+    }, 1500);
+
+  });
   $(window).scroll(function () {
     return $('nav, .social-fixed').toggleClass("fixed", $(window).scrollTop() > $('.head').height());
   });
